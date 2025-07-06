@@ -7,6 +7,8 @@ pluginManagement {
                 includeGroupByRegex("androidx.*")
             }
         }
+        maven("https://maven.myket.ir")
+
         mavenCentral()
         gradlePluginPortal()
     }

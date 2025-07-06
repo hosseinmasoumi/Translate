@@ -24,6 +24,6 @@ class SplashFragment : Fragment() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             findNavController().navigate(R.id.action_splashscsreen_to_mainpage)
-        }, 4000)
+        }, 3000)
     }
 }
