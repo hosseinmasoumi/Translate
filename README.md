@@ -99,7 +99,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Email: [hosseinmasoumi3128@gmail.com](mailto:hosseinmasoumi3128@gmail.com)
 - Phone: +98 935 128 8210
-- Project Link: [https://github.com/yourusername/language-translator-app](https://github.com/yourusername/language-translator-app)
 
 ## 🙏 Acknowledgments
 
