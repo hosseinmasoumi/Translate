@@ -1,22 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_navigation"
     app:startDestination="@id/splashscsreen">
 
-    <fragment
-        android:id="@+id/mainpage"
-        android:name="com.example.translate.screens.Mainpage"
-        android:label="fragment_mainpage"
-        tools:layout="@layout/fragment_mainpage" />
+    <!-- Splash Screen -->
     <fragment
         android:id="@+id/splashscsreen"
         android:name="com.example.translate.screens.SplashFragment"
-        android:label="fragment_splashscsreen"
-        tools:layout="@layout/fragment_splashscsreen" >
+        android:label="Splash"
+        tools:layout="@layout/fragment_splashscsreen">
         <action
             android:id="@+id/action_splashscsreen_to_mainpage"
             app:destination="@id/mainpage" />
     </fragment>
+
+    <!-- هرکدوم از اینا باید توی BottomNavigationView باشن -->
+    <fragment
+        android:id="@+id/mainpage"
+        android:name="com.example.translate.screens.Mainpage"
+        android:label="Main"
+        tools:layout="@layout/fragment_mainpage" />
+
+    <fragment
+        android:id="@+id/screencamera"
+        android:name="com.example.translate.screens.screencamera"
+        android:label="Camera"
+        tools:layout="@layout/fragment_screencamera" />
+
+    <fragment
+        android:id="@+id/screenchat"
+        android:name="com.example.translate.screens.screenchat"
+        android:label="Chat"
+        tools:layout="@layout/fragment_screenchat" />
+
+    <fragment
+        android:id="@+id/screenfavourite"
+        android:name="com.example.translate.screens.screenfavourite"
+        android:label="Favourite"
+        tools:layout="@layout/fragment_screenfavourite" />
+
+    <fragment
+        android:id="@+id/screenhistory"
+        android:name="com.example.translate.screens.screenhistory"
+        android:label="History"
+        tools:layout="@layout/fragment_screenhistory" />
 </navigation>
