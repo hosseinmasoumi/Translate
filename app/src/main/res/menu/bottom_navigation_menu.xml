@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_1"
+        android:enabled="true"
+        android:icon="@drawable/outline_mic_24"
+        android:title="Chat"
+        />
+    <item
+        android:id="@+id/item_2"
+        android:enabled="true"
+        android:icon="@drawable/baseline_camera_alt_24"
+        android:title="Camera"/>
+<item
+        android:id="@+id/item_3"
+        android:enabled="true"
+        android:icon="@drawable/outline_favorite_24"
+        android:title="history"/>
+<item
+        android:id="@+id/item_4"
+        android:enabled="true"
+        android:icon="@drawable/baseline_history_24"
+        android:title="History"/>
+<item
+        android:id="@+id/item_5"
+        android:enabled="true"
+        android:icon="@drawable/outline_favorite_24"
+        android:title="Favourite"/>
+
+</menu>
