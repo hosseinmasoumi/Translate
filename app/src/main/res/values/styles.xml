@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- سایر استایل‌های تم یا اپت -->
+
+    <style name="BottomNavText" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">15sp</item>
+<!--        <item name="android:textAllCaps">true</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+    </style>
+
+</resources>
